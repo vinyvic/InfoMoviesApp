@@ -1,6 +1,6 @@
 # Info Movies App
 Info Movies App is an Android application that allows the user to view information about a chosen movie after selecting a genre.
-
+![alt text](https://raw.githubusercontent.com/Cardos0/InfoMoviesApp/master/app/src/main/res/drawable/logo.jpeg "Info Movies APP Logo")
 #### Professor Rodrigo Bossini
 #### https://sites.google.com/site/professorrodrigobossini/
 #### Fatec Carapicuíba
