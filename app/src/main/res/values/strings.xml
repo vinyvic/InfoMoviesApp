@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">InfoMoviesApp</string>
+    <string name="choose_a_genre">Choose a genre</string>
 </resources>
