@@ -49,28 +49,22 @@ Android. Ele deve ser desenvolvido utilizando-se o IDE Android Studio. O aplicat
 permitirá a consulta de filmes por gêneros. Veja um mockup no final desse documento.
 
 # Funcionalidades requeridas
+I. Ao acessar a aplicação, o usuário vê uma lista de gêneros de filmes. A lista de gêneros pode ser obtida pelo link https://developers.themoviedb.org/3/genres/get-movie-list.
 
-I. Ao acessar a aplicação, o usuário vê uma lista de gêneros de filmes. A lista de gêneros
-pode ser obtida pelo link https://developers.themoviedb.org/3/genres/get-movie-list.
 II. Uma vez selecionado um gênero, a aplicação mostra uma lista de até 50 filmes com
-aquele gênero. A lista de filmes por gênero pode ser obtida em
-https://developers.themoviedb.org/3/discover/movie-discover. Preste atenção no
-parâmetro with_genres.
+aquele gênero. A lista de filmes por gênero pode ser obtida em https://developers.themoviedb.org/3/discover/movie-discover. Preste atenção no parâmetro with_genres.
+
 III. Uma vez selecionado um filme na lista, a aplicação mostra uma foto e descrição
-sucinta sobre ele. Os detalhes de um filme podem ser obtidos em
-https://developers.themoviedb.org/3/movies/get-movie-details.
-Requerimentos adicionais
-I. O grupo obrigatoriamente desenvolverá um vídeo promocional do aplicativo e o
-publicará no Youtube.
-II. A aplicação deve ter suporte à internacionalização, incluindo os idiomas inglês,
-português do brasil, espanhol, alemão e japonês.
+sucinta sobre ele. Os detalhes de um filme podem ser obtidos em https://developers.themoviedb.org/3/movies/get-movie-details.
+
+# Requerimentos adicionais
+I. O grupo obrigatoriamente desenvolverá um vídeo promocional do aplicativo e o publicará no Youtube.
+
+II. A aplicação deve ter suporte à internacionalização, incluindo os idiomas inglês, português do brasil, espanhol, alemão e japonês
+
 III. O inglês deve ser o idioma padrão.
-IV. Preocupe-se com a acessibilidade. Adicione um texto descritivo a cada componente
-visual da aplicação que será reproduzido caso o usuário ative o Talkback.
-V. A aplicação deve utilizar uma combinação de cores apropriada do Material Design. A
-cor primária deve ser um tom de laranja. Escolha as demais de modo que “combinem”, ou
-seja, de acordo com as recomendações Material Design. Além de o Android Studio
-mostrar sugestões, também é possível visualizar as cores que “combinam” no link a seguir:
-https://material.io/guidelines/style/color.html#color-color-palette
-Professor Rodrigo Bossini
-https://sites.google.com/site/professorrodrigobossini/
+
+IV. Preocupe-se com a acessibilidade. Adicione um texto descritivo a cada componente visual da aplicação que será reproduzido caso o usuário ative o Talkback.
+
+V. A aplicação deve utilizar uma combinação de cores apropriada do Material Design. A cor primária deve ser um tom de laranja. Escolha as demais de modo que “combinem”, ou seja, de acordo com as recomendações Material Design. Além de o Android Studio
+mostrar sugestões, também é possível visualizar as cores que “combinam” no link a seguir: https://material.io/guidelines/style/color.html#color-color-palette
