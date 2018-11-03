@@ -1,15 +1,15 @@
 # Info Movies App
 Info Movies App is an Android application that allows the user to view information about a chosen movie after selecting a genre.
 
-Professor Rodrigo Bossini
-https://sites.google.com/site/professorrodrigobossini/
-Fatec Carapicuíba
-Tecnologia em Análise e Desenvolvimento de Sistemas
-Professor Rodrigo Bossini
-Programação para Dispositivos Móveis
-Projeto de Desenvolvimento de Software
+#### Professor Rodrigo Bossini
+#### https://sites.google.com/site/professorrodrigobossini/
+#### Fatec Carapicuíba
+#### Tecnologia em Análise e Desenvolvimento de Sistemas
+#### Professor Rodrigo Bossini
+#### Programação para Dispositivos Móveis
+#### Projeto de Desenvolvimento de Software
 
-# Instruções
+## Instruções
 1. O projeto pode ser desenvolvido por grupos de 1 a 4 alunos.
 2. O grupo deverá criar uma conta no github para controlar o desenvolvimento do projeto.
 3. O grupo deverá acessar o site www.rawshorts.com ou www.animaker.co para produzir
@@ -48,7 +48,7 @@ O projeto consiste no desenvolvimento de uma aplicação para dispositivos móve
 Android. Ele deve ser desenvolvido utilizando-se o IDE Android Studio. O aplicativo
 permitirá a consulta de filmes por gêneros. Veja um mockup no final desse documento.
 
-# Funcionalidades requeridas
+## Funcionalidades requeridas
 I. Ao acessar a aplicação, o usuário vê uma lista de gêneros de filmes. A lista de gêneros pode ser obtida pelo link https://developers.themoviedb.org/3/genres/get-movie-list.
 
 II. Uma vez selecionado um gênero, a aplicação mostra uma lista de até 50 filmes com
@@ -57,7 +57,7 @@ aquele gênero. A lista de filmes por gênero pode ser obtida em https://develop
 III. Uma vez selecionado um filme na lista, a aplicação mostra uma foto e descrição
 sucinta sobre ele. Os detalhes de um filme podem ser obtidos em https://developers.themoviedb.org/3/movies/get-movie-details.
 
-# Requerimentos adicionais
+## Requerimentos adicionais
 I. O grupo obrigatoriamente desenvolverá um vídeo promocional do aplicativo e o publicará no Youtube.
 
 II. A aplicação deve ter suporte à internacionalização, incluindo os idiomas inglês, português do brasil, espanhol, alemão e japonês
