@@ -8,15 +8,15 @@
     android:orientation="vertical">
 
     <TextView
-        android:id="@+id/chooseAGenderTextView"
+        android:id="@+id/genreTextView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/choose_a_genre" />
 
-    <ListView
-        android:id="@+id/genreListView"
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/genreRecyclerView"
         android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="1" />
+        android:layout_height="match_parent"
+        tools:listitem="@layout/genre_line_layout"/>
 
 </LinearLayout>
