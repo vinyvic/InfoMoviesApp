@@ -11,5 +11,4 @@
         <item name="android:colorAccent">@color/colorAccent</item>
         <item name="android:textColorPrimary">@color/text_color_primary</item>
     </style>
-
 </resources>

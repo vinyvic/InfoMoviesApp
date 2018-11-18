@@ -20,6 +20,9 @@ import java.net.URL;
 import java.util.ArrayList;
 import java.util.List;
 
+import br.com.infomoviesapp.infomoviesapp.genre.Genre;
+import br.com.infomoviesapp.infomoviesapp.genre.GenreAdapter;
+
 public class MainActivity extends AppCompatActivity {
 
     private RecyclerView genreRecyclerView;
@@ -40,10 +43,10 @@ public class MainActivity extends AppCompatActivity {
         setupRecycler();
 
         /* Chamada da classe para capturar generos*/
-        String pathGenres = getString(R.string.path_genres);
-        String key = getString(R.string.api_key);
-        String lang = getString(R.string.lang);
-        String url = getString(R.string.web_service_url, pathGenres, key, lang);
+        WebServicePath webServicePath = new WebServicePath();
+        webServicePath.setPathGenre();
+        String url = webServicePath.getUrl();
+        Log.d("Debug", url);
         new getGenreList().execute(url);
     }
 
@@ -58,7 +61,7 @@ public class MainActivity extends AppCompatActivity {
 
         // Adiciona o adapter que irá anexar os objetos à lista.
         // Está sendo criado com lista vazia, pois será preenchida posteriormente.
-        genreAdapter = new GenreAdapter(genres);
+        genreAdapter = new GenreAdapter(MainActivity.this, genres);
         genreRecyclerView.setAdapter(genreAdapter);
     }
 

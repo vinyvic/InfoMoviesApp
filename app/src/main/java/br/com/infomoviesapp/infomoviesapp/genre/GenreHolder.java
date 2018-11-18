@@ -1,8 +1,10 @@
-package br.com.infomoviesapp.infomoviesapp;
+package br.com.infomoviesapp.infomoviesapp.genre;
 
 import android.support.v7.widget.RecyclerView;
 import android.view.View;
 import android.widget.TextView;
+
+import br.com.infomoviesapp.infomoviesapp.R;
 
 public class GenreHolder extends RecyclerView.ViewHolder {
     public TextView genreTextView;

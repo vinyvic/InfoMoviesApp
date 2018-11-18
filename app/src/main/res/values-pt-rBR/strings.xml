@@ -3,4 +3,5 @@
     <string name="app_name">InfoMoviesApp</string>
     <string name="lang">pt-BR</string>
     <string name="choose_a_genre">Escolha um gênero</string>
+    <string name="title_activity_movies_by_genre">Filmes por Gênero</string>
 </resources>

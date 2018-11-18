@@ -3,5 +3,7 @@
     <string name="lang">en</string>
     <string name="api_key" translatable="false">9fb4f4833d72cfc59ef241d9e98c7a34</string>
     <string name="path_genres" translatable="false">genre/movie/list</string>
-    <string name="web_service_url" translatable="false">https://api.themoviedb.org/3/%s?api_key=%s&amp;language=%s</string>
+    <string name="path_movie_by_genre" translatable="false">discover/movie</string>
+    <string name="with_genres" translatable="false">with_genres=%d</string>
+    <string name="web_service_url" translatable="false">https://api.themoviedb.org/3/</string>
 </resources>

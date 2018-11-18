@@ -1,4 +1,4 @@
-package br.com.infomoviesapp.infomoviesapp;
+package br.com.infomoviesapp.infomoviesapp.genre;
 
 public class Genre {
     private int id;
