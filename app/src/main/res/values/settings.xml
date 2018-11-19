@@ -5,5 +5,7 @@
     <string name="path_genres" translatable="false">genre/movie/list</string>
     <string name="path_movie_by_genre" translatable="false">discover/movie</string>
     <string name="with_genres" translatable="false">with_genres=%d</string>
+    <string name="page" translatable="false">page=%d</string>
     <string name="web_service_url" translatable="false">https://api.themoviedb.org/3/</string>
+    <string name="web_service_url_images" translatable="false">https://image.tmdb.org/t/p/</string>
 </resources>

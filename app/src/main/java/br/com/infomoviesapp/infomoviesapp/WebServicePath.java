@@ -1,26 +1,29 @@
 package br.com.infomoviesapp.infomoviesapp;
 
-import android.support.v7.app.AppCompatActivity;
+import java.util.Locale;
 
-public class WebServicePath extends AppCompatActivity {
+public class WebServicePath{
     private String urlBase = App.getResourses().getString(R.string.web_service_url);
+
     private String path;
     private String key = App.getResourses().getString(R.string.api_key);
     private String language = App.getResourses().getString(R.string.lang);
     private String others;
+    private String page;
 
     /* Construtores */
-    public WebServicePath(String path, String others) {
+    public WebServicePath(String path, String others, String page) {
         this.path = path;
         this.others = others;
+        this.page = page;
     }
 
     public WebServicePath(String path) {
-        this (path, "");
+        this (path, "", "");
     }
 
     public WebServicePath() {
-        this ("", "");
+        this ("", "", "");
     }
 
     /* Get e Set Defaults*/
@@ -61,6 +64,15 @@ public class WebServicePath extends AppCompatActivity {
         this.urlBase = urlBase;
     }
 
+    public String getPage() {
+        return page;
+    }
+
+    public void setPage(int page) {
+        String page_url = App.getResourses().getString(R.string.page, page);
+        this.page = String.format("&%s", page_url);
+    }
+
     /* Metodos Personalizados */
     public void setPathGenre() {
         String path = App.getResourses().getString(R.string.path_genres);
@@ -72,13 +84,12 @@ public class WebServicePath extends AppCompatActivity {
         setPath(path);
     }
 
-    public void setOthersWithGenres(int id){
-        String others = App.getResourses().getString(R.string.with_genres, id);
-        setOthers(String.format("%s&%s", this.others, others));
+    public void addOthers(String parameter){
+        setOthers(String.format("%s&%s", this.others, parameter));
     }
 
     public String getUrl(){
-        String url = String.format("%s%s?api_key=%s&language=%s%s", urlBase, path, key, language, others);
+        String url = String.format(Locale.getDefault(),"%s%s?api_key=%s&language=%s%s%s", urlBase, path, key, language, page, others);
         return url;
     }
 }

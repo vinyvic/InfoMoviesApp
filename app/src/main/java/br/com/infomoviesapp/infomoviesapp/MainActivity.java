@@ -46,7 +46,7 @@ public class MainActivity extends AppCompatActivity {
         WebServicePath webServicePath = new WebServicePath();
         webServicePath.setPathGenre();
         String url = webServicePath.getUrl();
-        Log.d("Debug", url);
+        Log.d("DEBUG/URL_GENRE", url);
         new getGenreList().execute(url);
     }
 
