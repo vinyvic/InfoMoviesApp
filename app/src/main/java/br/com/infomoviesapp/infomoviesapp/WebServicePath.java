@@ -84,6 +84,11 @@ public class WebServicePath{
         setPath(path);
     }
 
+    public void setPathMovieInfo(int id){
+        String path = String.format(Locale.getDefault(), "%s/%d", App.getResourses().getString(R.string.path_movie_info), id);
+        setPath(path);
+    }
+
     public void addOthers(String parameter){
         setOthers(String.format("%s&%s", this.others, parameter));
     }
