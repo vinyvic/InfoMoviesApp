@@ -14,6 +14,10 @@ import java.util.Locale;
 import br.com.infomoviesapp.infomoviesapp.MovieByGenreActivity;
 import br.com.infomoviesapp.infomoviesapp.R;
 
+/** Classe Adapter para a RecyclerView de Gêneros
+ * @version 1.0
+ * @since 1.0
+ */
 public class GenreAdapter extends RecyclerView.Adapter <GenreHolder>{
     private final List <Genre> genresList;
     private Context mContext;

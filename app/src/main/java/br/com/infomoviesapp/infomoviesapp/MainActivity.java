@@ -23,22 +23,25 @@ import java.util.List;
 import br.com.infomoviesapp.infomoviesapp.genre.Genre;
 import br.com.infomoviesapp.infomoviesapp.genre.GenreAdapter;
 
+/** Classe chamada ao iniciar o aplicativo que é responsável por mostrar a lista de gêneros.
+ *  @version 1.0
+ *  @since 1.0
+ */
 public class MainActivity extends AppCompatActivity {
-
     private RecyclerView genreRecyclerView;
     private GenreAdapter genreAdapter;
-    private List <Genre> genres;
+    private List <Genre> genres;                // Lista de Generos
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
-        /* Default */
+        /* Padrão do onCreate*/
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        /* Código Personalizado*/
+        /* Personalizado */
         genres = new ArrayList<>();
 
-        /* Setup Recycler */
+        /* Inicializar a RecyclerView */
         genreRecyclerView = findViewById(R.id.genreRecyclerView);
         setupRecycler();
 
@@ -67,6 +70,8 @@ public class MainActivity extends AppCompatActivity {
 
     /**
      * Classe privada chamada para obter generos do web service
+     *  @version 1.0
+     *  @since 1.0
      */
     private class getGenreList extends AsyncTask <String, Void, String>{
 

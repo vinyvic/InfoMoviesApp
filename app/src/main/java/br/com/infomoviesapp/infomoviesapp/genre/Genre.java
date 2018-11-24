@@ -1,5 +1,9 @@
 package br.com.infomoviesapp.infomoviesapp.genre;
 
+/** Classe que representa um gênero de filme.
+ * @version 1.0
+ * @since 1.0
+ */
 public class Genre {
     private int id;
     private String name;

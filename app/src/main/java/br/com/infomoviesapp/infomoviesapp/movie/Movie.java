@@ -1,5 +1,9 @@
 package br.com.infomoviesapp.infomoviesapp.movie;
 
+/** Classe que representa um filme.
+ * @version 1.0
+ * @since 1.0
+ */
 public class Movie {
     private String posterPath;
     private int id;

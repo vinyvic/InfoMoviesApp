@@ -2,6 +2,11 @@ package br.com.infomoviesapp.infomoviesapp;
 
 import java.util.Locale;
 
+/**
+ * Classe responsável por montar URL's com os caminhos do webservice
+ *  @version 1.0
+ *  @since 1.0
+ */
 public class WebServicePath{
     private String urlBase = App.getResourses().getString(R.string.web_service_url);
 

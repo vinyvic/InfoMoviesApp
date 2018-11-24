@@ -26,6 +26,10 @@ import java.util.List;
 import br.com.infomoviesapp.infomoviesapp.movie.Movie;
 import br.com.infomoviesapp.infomoviesapp.movie.MovieAdapter;
 
+/** Classe responsável por mostrar filmes por gênero
+ *  @version 1.0
+ *  @since 1.0
+ */
 public class MovieByGenreActivity extends AppCompatActivity {
 
     private int idGenre;
@@ -53,6 +57,7 @@ public class MovieByGenreActivity extends AppCompatActivity {
         int page = 1;
         String[] urls = new String[3];
 
+        // Acessar 3 páginas, são 20 filmes por páginas precisamos de 50
         while (page <= 3){
             webServicePath.setPage(page);
             urls[page-1] = webServicePath.getUrl();
@@ -62,6 +67,8 @@ public class MovieByGenreActivity extends AppCompatActivity {
         new getMovieList().execute(urls);
     }
 
+    /** Método privado responsável por capturar o id do gênero que será utilizado na requisição do webservice
+     */
     private void getExtras(){
         if (getIntent().hasExtra("idGenre")){
             int id = getIntent().getIntExtra("idGenre", -1);
@@ -93,6 +100,11 @@ public class MovieByGenreActivity extends AppCompatActivity {
         this.idGenre = idGenre;
     }
 
+    /**
+     * Classe privada chamada para obter os filmes do web service
+     *  @version 1.0
+     *  @since 1.0
+     */
     private class getMovieList extends AsyncTask<String, Void, String> {
 
         @Override

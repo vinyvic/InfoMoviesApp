@@ -20,6 +20,10 @@ import java.io.InputStreamReader;
 import java.net.HttpURLConnection;
 import java.net.URL;
 
+/** Classe responsável por mostrar as informações de um filme
+ *  @version 1.0
+ *  @since 1.0
+ */
 public class MovieInfo extends AppCompatActivity {
 
     public int getIdMovie() {
@@ -77,12 +81,15 @@ public class MovieInfo extends AppCompatActivity {
         this.movieOverviewTextView = movieOverviewTextView;
     }
 
+    // Pegar variáveis de passagem
     private void getExtras(){
         if (getIntent().hasExtra("idMovie")){
             int id = getIntent().getIntExtra("idMovie", -1);
             setIdMovie(id);
         }
     }
+
+
     private class getMovieInfo extends AsyncTask<String, Void, String> {
 
         @Override

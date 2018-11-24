@@ -6,6 +6,10 @@ import android.widget.TextView;
 
 import br.com.infomoviesapp.infomoviesapp.R;
 
+/** Classe Holder da RecyclerView de Gêneros
+ * @version 1.0
+ * @since 1.0
+ */
 public class GenreHolder extends RecyclerView.ViewHolder {
     public TextView genreTextView;
 

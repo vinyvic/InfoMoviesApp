@@ -1,5 +1,10 @@
 package br.com.infomoviesapp.infomoviesapp;
 
+/**
+ * Classe responsável por montar URL's com os caminhos de imagens do webservice
+ *  @version 1.0
+ *  @since 1.0
+ */
 public class WebServicePathImage {
     private String urlBase = App.getResourses().getString(R.string.web_service_url_images);
     private String widthPath = "w500";
