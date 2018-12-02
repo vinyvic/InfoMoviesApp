@@ -1,5 +1,20 @@
 <resources>
-    <string name="app_name">InfoMoviesApp</string>
+    <string name="app_name" translatable="false">InfoMoviesApp</string>
     <string name="choose_a_genre">Choose a genre</string>
     <string name="title_activity_movies_by_genre">Movies by Genre</string>
+    <string name="genre_example">Genre Example</string>
+    <string name="noConnectionTitle">No Internet Connection</string>
+    <string name="noConnectionMessage">Sorry, you do not have an internet connection, we need it to show the information to you. If you have already enabled, try the option \"%s\"</string>
+    <string name="exit">Exit</string>
+    <string name="connectOnInternet">Connect on the internet</string>
+    <string name="tryAgain">Try Again</string>
+    <string name="genres">Genres</string>
+    <string name="about_us">About Us</string>
+    <string name="open_drawer">Open Menu</string>
+    <string name="close_drawer">Close Menu</string>
+    <string name="movie_by_genre">Movies by genre</string>
+    <string name="choose_a_movie">Choose a movie</string>
+    <string name="movie_info">Movie Info</string>
+    <string name="genre_list">Genre list</string>
+    <string name="poster_image_of_movie">Poster Image of Movie</string>
 </resources>

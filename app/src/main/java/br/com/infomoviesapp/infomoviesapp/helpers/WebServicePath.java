@@ -1,6 +1,8 @@
-package br.com.infomoviesapp.infomoviesapp;
+package br.com.infomoviesapp.infomoviesapp.helpers;
 
 import java.util.Locale;
+
+import br.com.infomoviesapp.infomoviesapp.R;
 
 /**
  * Classe responsável por montar URL's com os caminhos do webservice

@@ -1,4 +1,4 @@
-package br.com.infomoviesapp.infomoviesapp;
+package br.com.infomoviesapp.infomoviesapp.helpers;
 
 import android.app.Application;
 import android.content.res.Resources;

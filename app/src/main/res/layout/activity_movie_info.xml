@@ -1,29 +1,58 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
+<android.support.v4.widget.DrawerLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MovieInfo"
-    android:orientation="vertical">
+    tools:context=".activitys.MovieInfoActivity"
+    android:id="@+id/drawerLayout"
+    android:fitsSystemWindows="true"
+    tools:openDrawer="end" >
 
-    <ImageView
-        android:id="@+id/movieImageView"
+    <android.support.design.widget.NavigationView
+    android:layout_below="@+id/mainToolBar"
+    android:id="@+id/navView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="start"
+    app:headerLayout="@layout/nav_header"
+    app:menu="@menu/menu_nav" />
+
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="1"
-        app:srcCompat="@drawable/logov2" />
-    <TextView
-        android:id="@+id/movieTitleTextView"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Title"
-        android:gravity="center"/>
-    <TextView
-        android:id="@+id/movieOverviewTextView"
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="3"
-        android:text="Overview" />
-</LinearLayout>
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <include layout="@layout/toolbar" />
+        <include layout="@layout/loading" />
+
+        <ImageView
+            android:id="@+id/movieImageView"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/default_poster"
+            android:contentDescription="@string/poster_image_of_movie"/>
+
+        <TextView
+            android:id="@+id/movieTitleTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Title Example"
+            android:textSize="24dp"
+            android:textStyle="bold"
+            android:padding="6dp" />
+
+        <TextView
+            android:id="@+id/movieOverviewTextView"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:padding="6dp"
+            android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc faucibus volutpat nulla, blandit tempus purus luctus a. Proin pulvinar, dui tempor ullamcorper fringilla, quam ligula cursus neque, ut aliquam sapien sapien quis odio. In hac habitasse platea dictumst. Nunc fringilla tincidunt sagittis. Nam eget aliquet diam, eu ultrices mi. Vestibulum varius aliquet velit, sit amet scelerisque est scelerisque non. Etiam faucibus urna et faucibus porta. Nunc vestibulum, metus vitae accumsan accumsan, mauris turpis dignissim ex, sed vulputate lorem libero in enim. Nulla a tellus posuere, eleifend ante vitae, ornare velit. Aliquam non sodales nunc. Vivamus nisl eros, maximus id augue ultricies, condimentum condimentum dolor. Praesent velit lectus, fringilla a viverra in, facilisis eu libero. Aenean tincidunt enim sed diam posuere, venenatis molestie lorem dignissim "
+            android:layout_gravity="center_vertical|right"
+            android:scrollbars="vertical"/>
+    </LinearLayout>
+</android.support.v4.widget.DrawerLayout>

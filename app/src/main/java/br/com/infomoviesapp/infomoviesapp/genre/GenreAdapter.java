@@ -11,12 +11,11 @@ import android.view.ViewGroup;
 import java.util.List;
 import java.util.Locale;
 
-import br.com.infomoviesapp.infomoviesapp.MovieByGenreActivity;
+import br.com.infomoviesapp.infomoviesapp.activitys.MovieByGenreActivity;
 import br.com.infomoviesapp.infomoviesapp.R;
+import br.com.infomoviesapp.infomoviesapp.helpers.GoToActivity;
 
 /** Classe Adapter para a RecyclerView de Gêneros
- * @version 1.0
- * @since 1.0
  */
 public class GenreAdapter extends RecyclerView.Adapter <GenreHolder>{
     private final List <Genre> genresList;
@@ -44,13 +43,15 @@ public class GenreAdapter extends RecyclerView.Adapter <GenreHolder>{
 
         // Definir Link
         holder.genreTextView.setOnClickListener(new View.OnClickListener() {
-            int Genreid = genresList.get(position).getId();
+            int genreId = genresList.get(position).getId();
+            String genreName = genresList.get(position).getName();
 
             @Override
             public void onClick(View v) {
 
                 Intent intent = new Intent(mContext, MovieByGenreActivity.class);
-                intent.putExtra("idGenre", Genreid);
+                intent.putExtra("idGenre", genreId);
+                intent.putExtra("nameGenre", genreName);
                 mContext.startActivity(intent);
             }
         });

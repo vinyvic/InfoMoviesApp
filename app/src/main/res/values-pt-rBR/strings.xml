@@ -1,7 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">InfoMoviesApp</string>
     <string name="lang">pt-BR</string>
     <string name="choose_a_genre">Escolha um gênero</string>
     <string name="title_activity_movies_by_genre">Filmes por Gênero</string>
+    <string name="genre_example">Exemplo de Gênero</string>
+    <string name="noConnectionTitle">Sem conexão com a internert</string>
+    <string name="noConnectionMessage">Desculpe, você não tem uma conexão com a internet, é necessário para a exibição das informações. Se você já ativou, tente a opção \"%s\"</string>
+    <string name="exit">Sair</string>
+    <string name="connectOnInternet">Conectar a internet</string>
+    <string name="tryAgain">Tentar Novamente</string>
+    <string name="genres">Gêneros</string>
+    <string name="about_us">Sobre Nós</string>
+    <string name="open_drawer">Abrir Menu</string>
+    <string name="close_drawer">Fechar Menu</string>
+    <string name="movie_by_genre">Filmes por Gênero</string>
+    <string name="choose_a_movie">Escolha um Filme</string>
+    <string name="movie_info">Informações do Filme</string>
+    <string name="genre_list">Lista de Gêneros</string>
+    <string name="poster_image_of_movie">Imagem do Filme</string>
 </resources>

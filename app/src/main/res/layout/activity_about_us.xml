@@ -6,9 +6,10 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".activitys.MainActivity"
+    tools:context=".activitys.AboutUsActivity"
     android:fitsSystemWindows="true"
-    tools:openDrawer="end" >
+    tools:openDrawer="end"
+    >
 
     <android.support.design.widget.NavigationView
         android:layout_below="@+id/mainToolBar"
@@ -24,22 +25,16 @@
         android:layout_height="match_parent"
         android:orientation="vertical">
 
-        <include layout="@layout/toolbar" />
+    <include layout="@layout/toolbar" />
 
-        <include layout="@layout/loading" />
+    <include layout="@layout/loading" />
 
-        <android.support.v4.widget.SwipeRefreshLayout
-            xmlns:android="http://schemas.android.com/apk/res/android"
-            android:id="@+id/genresSwipeRefreshLayout"
+        <TextView
+            android:id="@+id/textView"
             android:layout_width="match_parent"
-            android:layout_height="match_parent">
+            android:layout_height="wrap_content"
+            android:text="TextView" />
 
-            <android.support.v7.widget.RecyclerView
-                android:id="@+id/genreRecyclerView"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                tools:listitem="@layout/genre_line_layout"/>
 
-        </android.support.v4.widget.SwipeRefreshLayout>
     </LinearLayout>
 </android.support.v4.widget.DrawerLayout>

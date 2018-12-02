@@ -1,4 +1,8 @@
-package br.com.infomoviesapp.infomoviesapp;
+package br.com.infomoviesapp.infomoviesapp.helpers;
+
+import android.content.res.Resources;
+
+import br.com.infomoviesapp.infomoviesapp.R;
 
 /**
  * Classe responsável por montar URL's com os caminhos de imagens do webservice
@@ -31,6 +35,11 @@ public class WebServicePathImage {
     }
 
     public String getUrl(){
-        return String.format("%s%s%s", urlBase, widthPath, image);
+        if (image != "null"){
+            return String.format("%s%s%s", urlBase, widthPath, image);
+        }else{
+            return null;
+        }
+
     }
 }

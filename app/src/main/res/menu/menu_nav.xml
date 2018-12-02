@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group>
+        <item android:id="@+id/nav_item_genre_list"
+            android:icon="@drawable/ic_movie_filter_black_24dp"
+            android:title="@string/genre_list" />
+    </group>
+    <group android:id="@+id/group_menu">
+        <item android:id="@+id/nav_item_about_us"
+            android:icon="@drawable/ic_group_black_24dp"
+            android:title="@string/about_us" />
+    </group>
+</menu>
