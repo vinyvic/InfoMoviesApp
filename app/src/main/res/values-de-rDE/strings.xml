@@ -2,5 +2,21 @@
 <resources>
     <string name="choose_a_genre">Wähle ein Genre</string>
     <string name="lang">de-DE</string>
+    <string name="title_activity_movies_by_genre">Filme nach Genre</string>
+    <string name="poster_image_of_movie">Filmbild</string>
+    <string name="genre_example">Beispiel für Genre</string>
+    <string name="noConnectionTitle">Keine Internetverbindung</string>
+    <string name="noConnectionMessage">Entschuldigung, Sie haben keine Internetverbindung, es ist notwendig, Informationen anzuzeigen. Wenn Sie bereits aktiviert sind, probieren Sie die Option% s aus</string>
+    <string name="exit">Beenden</string>
+    <string name="connectOnInternet">Verbinden Sie sich mit dem Internet</string>
+    <string name="tryAgain">Versuchen Sie es erneut</string>
+    <string name="genres">Mehr sehen</string>
+    <string name="about_us">Über uns</string>
+    <string name="open_drawer">Menü öffnen</string>
+    <string name="close_drawer">Menü schließen</string>
+    <string name="movie_by_genre">Filme nach Genre</string>
+    <string name="choose_a_movie">Wähle einen Film</string>
+    <string name="movie_info">Filminfo</string>
+    <string name="genre_list">Liste der Genres</string>
 
 </resources>

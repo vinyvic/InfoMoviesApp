@@ -2,4 +2,20 @@
 <resources>
     <string name="choose_a_genre">ジャンルを選択</string>
     <string name="lang">ja-JP</string>
+    <string name="title_activity_movies_by_genre">ジャンル別映画</string>
+    <string name="genre_example">ジャンルの例</string>
+    <string name="noConnectionTitle">インターネット接続なし</string>
+    <string name="noConnectionMessage">申し訳ありませんが、インターネットに接続していないため、情報を表示する必要があります。 既に起動している場合は、％sオプションを試してください</string>
+    <string name="exit">出口</string>
+    <string name="connectOnInternet">インターネットに接続する</string>
+    <string name="tryAgain">再度試してください</string>
+    <string name="genres">もっと見る»</string>
+    <string name="about_us">私たちについて</string>
+    <string name="open_drawer">メニューを開く</string>
+    <string name="close_drawer">閉じるメニュー</string>
+    <string name="movie_by_genre">ジャンル別映画</string>
+    <string name="choose_a_movie">映画を選ぶ</string>
+    <string name="movie_info">映画情報</string>
+    <string name="genre_list">ジャンル一覧</string>
+    <string name="poster_image_of_movie">映画イメージ</string>
 </resources>
