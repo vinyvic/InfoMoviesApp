@@ -33,6 +33,7 @@
             android:layout_height="0dp"
             android:layout_weight="1"
             app:srcCompat="@drawable/default_poster"
+            android:paddingTop="10dp"
             android:contentDescription="@string/poster_image_of_movie"/>
 
         <TextView

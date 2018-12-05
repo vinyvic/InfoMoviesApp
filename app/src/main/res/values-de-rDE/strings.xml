@@ -18,5 +18,9 @@
     <string name="choose_a_movie">Wähle einen Film</string>
     <string name="movie_info">Filminfo</string>
     <string name="genre_list">Liste der Genres</string>
+    <string name="project_logo">Logo des Projekts</string>
+    <string name="avatar_of_jean">Avatar von Jean</string>
+    <string name="avatar_of_caio">Avatar von Caio</string>
+    <string name="avatar_of_vinicius">Avatar von Vinicius</string>
 
 </resources>

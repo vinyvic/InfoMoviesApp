@@ -18,4 +18,8 @@
     <string name="movie_info">映画情報</string>
     <string name="genre_list">ジャンル一覧</string>
     <string name="poster_image_of_movie">映画イメージ</string>
+    <string name="project_logo">プロジェクトのロゴ</string>
+    <string name="avatar_of_vinicius">アバターオブ Vinicius</string>
+    <string name="avatar_of_caio">アバターオブ Caio</string>
+    <string name="avatar_of_jean">アバターオブ Jean</string>
 </resources>

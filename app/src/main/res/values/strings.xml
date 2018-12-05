@@ -17,4 +17,8 @@
     <string name="movie_info">Movie Info</string>
     <string name="genre_list">Genre list</string>
     <string name="poster_image_of_movie">Poster Image of Movie</string>
+    <string name="project_logo">Logo of Project</string>
+    <string name="avatar_of_caio">Avatar of Caio</string>
+    <string name="avatar_of_vinicius">Avatar of Vinicius</string>
+    <string name="avatar_of_jean">Avatar of Jean</string>
 </resources>

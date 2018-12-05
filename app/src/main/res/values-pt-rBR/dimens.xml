@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="nameFontSizeDefault">20sp</dimen>
+    <dimen name="namePaddingDefault">20dp</dimen>
+</resources>

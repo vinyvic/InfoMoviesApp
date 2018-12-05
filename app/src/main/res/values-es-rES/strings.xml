@@ -2,6 +2,26 @@
 <resources>
     <string name="choose_a_genre">Elige un género</string>
     <string name="lang">es-ES</string>
+    <string name="title_activity_movies_by_genre">Películas por Género</string>
+    <string name="genre_example">Ejemplo de género</string>
+    <string name="noConnectionTitle">Sin conexión a Internet</string>
+    <string name="noConnectionMessage">Sorry, you do not have an internet connection, we need it to show the information to you. If you have already enabled, try the option %s</string>
+    <string name="exit">Salida</string>
+    <string name="connectOnInternet">Conéctate en internet</string>
+    <string name="tryAgain">Inténtalo de nuevo</string>
+    <string name="genres">Géneros</string>
+    <string name="about_us">Sobre nosotros</string>
+    <string name="open_drawer">Menú abierto</string>
+    <string name="close_drawer">Cerrar menú</string>
+    <string name="movie_by_genre">Películas por género</string>
+    <string name="choose_a_movie">Elige una pelicula</string>
+    <string name="movie_info">Información de la película</string>
+    <string name="genre_list">Lista de género</string>
+    <string name="poster_image_of_movie">Cartel de la imagen de la película</string>
+    <string name="project_logo">Logo de Proyecto</string>
+    <string name="avatar_of_vinicius">Avatar de Vinicius</string>
+    <string name="avatar_of_caio">Avatar de Caio</string>
+    <string name="avatar_of_jean">Avatar de Jean</string>
 
 
 </resources>
