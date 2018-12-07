@@ -8,7 +8,8 @@ Uma descrição sucinta, de até 80 caracteres.
 
 Uma descrição abrangente, de até 4000 caracteres.
 
-    O InfoMoviesApp é um aplicativo que fornece a oportunidade ao usuário de buscar por informações de filmes,
-    com a utilização de genêros (ação, comédia, aventura, etc) como filtro o usuário pode buscar novos filmes
-    para assistir, sendo possível analisar sua descrição e capa.
+    O InfoMoviesApp é um aplicativo android que fornece a oportunidade ao usuário de buscar por informações de filmes. 
+    O aplicativo foi desenvolvido para a disciplina de Dispositivos Móveis da Faculdade Fatec Carapicuíba.
+    Com a utilização de genêros (ação, comédia, aventura, etc) como filtro o usuário pode buscar novos filmes
+    para assistir, sendo possível analisar a descrição do filme e capa.
     Todas as informações são fornecidas pelo THE MOVIE DB.
